@@ -1,0 +1,17 @@
+<h1>hello</h1>
+
+<ul>
+  <li>
+    Current locale: <%= I18n.locale %>
+  </li>
+  <li>
+    <%= link_to "English", root_path(locale: "en") %>
+  </li>
+  <li>
+    <%= link_to "Português (Brasil)", root_path(locale: "pt-BR") %>
+  </li>
+</ul>
+
+<div data-controller="hello">
+  <h1 data-target="hello.output"></h1>
+</div>
