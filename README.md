@@ -1,7 +1,7 @@
 # i18n.js Rails application sample
 
 This application uses webpacker with [i18n](https://github.com/fnando/i18n) and
-[i18n-json](https://github.com/fnando/i18n-json)
+[i18n-js](https://github.com/fnando/i18n-js)
 
 Things to check:
 
