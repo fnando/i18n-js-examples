@@ -73,7 +73,7 @@ GEM
       activesupport (>= 4.2.0)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
-    i18n-json (0.0.3)
+    i18n-js (4.0.0.alpha1)
       glob
       i18n
     listen (3.5.1)
@@ -171,7 +171,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  i18n-json
+  i18n-js (~> 4.0.0.alpha1)
   listen
   pry-meta
   puma

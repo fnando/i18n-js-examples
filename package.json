@@ -2,9 +2,9 @@
   "name": "i18njs_rails_middleware_example",
   "private": true,
   "dependencies": {
-    "@fnando/i18n": "https://fnando.s3.amazonaws.com/npm/fnando-i18n-0.0.0.tgz",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "4.3.0",
+    "i18n-js": "^4.0.0-alpha.1",
     "stimulus": "^1.1.1",
     "ts-loader": "^8.0.11",
     "typescript": "^4.0.5"

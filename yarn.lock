@@ -839,12 +839,6 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@fnando/i18n@https://fnando.s3.amazonaws.com/npm/fnando-i18n-0.0.0.tgz":
-  version "0.0.0"
-  resolved "https://fnando.s3.amazonaws.com/npm/fnando-i18n-0.0.0.tgz#e2d072a1422dfc799add78c31f71118e32067538"
-  dependencies:
-    lodash "*"
-
 "@npmcli/move-file@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@npmcli/move-file/-/move-file-1.0.1.tgz#de103070dac0f48ce49cf6693c23af59c0f70464"
@@ -3592,6 +3586,13 @@ https-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
+
+i18n-js@^4.0.0-alpha.1:
+  version "4.0.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/i18n-js/-/i18n-js-4.0.0-alpha.1.tgz#da839f80da3f600161ff3523c565bc1f04e3bcc4"
+  integrity sha512-R3LY2nnJ0oLR7MCvapT3F7sbC4WLl3tUhjIZ3djtNmdNV3Dop26oMkGsNekKdyWJmCR9sFGbBBjKWKN4ctDdNA==
+  dependencies:
+    lodash "*"
 
 iconv-lite@0.4.24:
   version "0.4.24"
