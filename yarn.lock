@@ -3592,10 +3592,10 @@ https-browserify@^1.0.0:
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
-i18n-js@^4.0.0-alpha.3:
-  version "4.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/i18n-js/-/i18n-js-4.0.0-alpha.3.tgz#1b6df60de8d9d6b2fcaa480b3efba1296c69a2c8"
-  integrity sha512-PS3HfAtf7eFFQg2Ptk+pEaTk6P5UxOY9l2hpHVYEE020qgFPXnPJxvKbw2HbFmYJsRJRPCYw3vCo0n1kuyWRtw==
+i18n-js@^4.0.0-alpha.4:
+  version "4.0.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/i18n-js/-/i18n-js-4.0.0-alpha.4.tgz#99f813326dbed870d681d090590d38e779417efa"
+  integrity sha512-SVqg1r940IPxyTRUYc585sogwOYQcoDaCHvtT0XVAPykymGMjam1yEFiEugl9uAOcRzQAwjhUaKB63PR3z0CcQ==
   dependencies:
     bignumber.js "*"
     lodash "*"
