@@ -1,0 +1,8 @@
+{
+  "pt-BR": {
+    "welcome_to_i18n_js": "Bem-vindo ao I18n.js",
+    "this_is_a_sample_app": "Esse é um app de exemplo.",
+    "source_code_is_available_at": "O código-fonte está disponível em {{link}}.",
+    "change_locale": "Mudar idioma"
+  }
+}

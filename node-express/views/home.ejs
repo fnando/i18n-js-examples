@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title><%- i18n.t("welcome_to_i18n_js") %></title>
+</head>
+<body>
+  <h1><%- i18n.t("welcome_to_i18n_js") %></h1>
+  <p><%- i18n.t("this_is_a_sample_app") %></p>
+  <p><%- i18n.t("source_code_is_available_at", {link: "<a href='https://github.com/fnando/i18n-js-examples'>https://github.com/fnando/i18n-js-examples</a>"}) %></p>
+
+  <hr>
+
+  <h2>
+    <%- i18n.t("change_locale") %>
+  </h2>
+
+  <ul>
+    <li>
+      <a href="/?locale=en">English</a>
+    </li>
+
+    <li>
+      <a href="/?locale=pt-BR">Português (Brasil)</a>
+    </li>
+  </ul>
+</body>
+</html>
