@@ -15,6 +15,7 @@ export default class extends Controller {
   outputTarget: HTMLHeadingElement;
 
   connect() {
-    this.outputTarget.textContent = i18n.t("hello");
+    const I18n = i18n; //in order to allow i18n-tasks to correctly scan and pick up translation strings
+    this.outputTarget.textContent = I18n.t("hello");
   }
 }
