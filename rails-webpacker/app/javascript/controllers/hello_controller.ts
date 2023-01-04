@@ -10,13 +10,12 @@
 import { Controller } from "stimulus";
 import { i18n } from "config/i18n";
 
-const { t } = i18n;
-
 export default class extends Controller {
   static targets = ["output"];
   outputTarget: HTMLHeadingElement;
 
   connect() {
-    this.outputTarget.textContent = t("hello");
+    const I18n = i18n; //in order to allow i18n-tasks to correctly scan and pick up translation strings
+    this.outputTarget.textContent = I18n.t("hello");
   }
 }
