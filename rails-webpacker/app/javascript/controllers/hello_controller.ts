@@ -10,11 +10,13 @@
 import { Controller } from "stimulus";
 import { i18n } from "config/i18n";
 
+const { t } = i18n;
+
 export default class extends Controller {
   static targets = ["output"];
   outputTarget: HTMLHeadingElement;
 
   connect() {
-    this.outputTarget.textContent = i18n.t("hello");
+    this.outputTarget.textContent = t("hello");
   }
 }
